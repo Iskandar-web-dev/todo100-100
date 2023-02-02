@@ -1,0 +1,136 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+form input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #007FFF;
+}
+
+form button {
+    all: unset;
+    background-color: #007FFF;
+    padding: 10px 20px;
+    border: 2px solid #007FFF;
+    border-radius: 10px;
+    color: #fff;
+}
+
+form button:active {
+    scale: .9;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+.item2 {
+height: 90px;
+width: 282px;
+background: #F0F0F0;;
+border-radius: 10px;
+border: 1px solid #007FFF ;
+display: flex;
+justify-content: space-between;
+}
+.task {
+    width: 170px;
+    height: 16.6px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+}
+
+.left {
+margin: 25px;
+}
+
+.right {
+margin: 10px 5px;
+}
+
+.hour {
+    width: 33px;
+    height: 17px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.55);
+    margin-top: 10px;
+}
+.img2 {
+    height: 14px;
+    width: 14px;
+   margin-right: 5px;
+    
+}
+.red {
+    text-decoration: line-through 2px red;
+}
+.item2:hover {
+border: 3px solid #007FFF ;
+transition: .10s ease;
+}
+.modal {
+    width: 500px;
+    height: 200px;
+    background-color: #F0F0F0;
+    border: 2px solid #007FFF;
+    border-radius: 8px;
+    margin: 250px auto;
+    transition: 400ms;
+    
+}
+.back {
+    width: 100%;
+    height: 120vh;
+    margin-top: -500px;
+    position: absolute;
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+    
+    display: none;
+}
+.modal h3 {
+    margin-left: 180px;
+    margin-top: 10px;
+}
+.modal input {
+    margin-left: 140px;
+    margin-top: 25px;
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline-color: #007FFF;
+}
+.modal button {
+width: 200px;
+height: 30px;
+border: 1px solid rgb(102, 97, 97);
+border-radius: 6px;
+margin-left: 160px;
+
+}
+.modalBtn {
+    margin-top: 10px ;
+    background-color: rgb(41, 255, 41);
+}
+.modalBtn2 {
+    background-color: rgb(255, 5, 5);
+    margin-top: 10px;
+    display: block;
+}
